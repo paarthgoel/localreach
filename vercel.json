@@ -1,6 +1,12 @@
 {
   "buildCommand": "",
   "outputDirectory": ".",
-  "framework": "vite",
-  "public": true
+  "framework": null,
+  "public": true,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }
